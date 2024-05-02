@@ -30,8 +30,9 @@ void addNode() {
         // if the list is empty, make the new node the START
         newNode->next = START; // step 3: make the new node point to the first node
         if (START != NULL) {
-            START->prev = newNode; // step 4: male the first node point to the new node
+            START->prev = newNode; // step 4: make the first node point to the new node
         }
+        newNode->prev = NULL;      // step 5: make the new node point to NULL
     }
 }
 int main()
