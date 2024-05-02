@@ -42,7 +42,7 @@ void addNode() {
 
         while (current != NULL && current->noMhs < newNode->noMhs) //step 1C: trever
         {
-            pre
+            previous = current;         //step 1.d: move the previous to the current node
         }
     }
 }
