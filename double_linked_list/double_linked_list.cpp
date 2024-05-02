@@ -10,6 +10,11 @@ struct Node
     Node *prev;
 };
 
+Node *START = NULL;
+
+void addNode() {
+    Node* newMode = new Node(); // step 1: create a new mode
+}
 int main()
 {
     
