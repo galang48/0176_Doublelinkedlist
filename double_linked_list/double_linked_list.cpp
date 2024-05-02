@@ -38,6 +38,7 @@ void addNode() {
     else {
         // insert the new mode in the middle or at the end
         Node* current = START; // step 1.a: start from the first node
+        Node* previous = NULL; // step 1.b: previous node is NULL initially
     }
 }
 int main()
