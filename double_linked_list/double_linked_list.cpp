@@ -16,6 +16,8 @@ void addNode() {
     Node* newNode = new Node(); // step 1: create a new mode
     cout << "\nEnter the role number of the student: ";
     cin >> newNode->NoMhs;      // Assign value to the data field of the new node
+    cout << "\nEnter the name of the student: ";
+    cin >> newNode->name;       // Assign value to the data field of the new mode
 }
 int main()
 {
