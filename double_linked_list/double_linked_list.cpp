@@ -13,7 +13,9 @@ struct Node
 Node *START = NULL;
 
 void addNode() {
-    Node* newMode = new Node(); // step 1: create a new mode
+    Node* newNode = new Node(); // step 1: create a new mode
+    cout << "\nEnter the role number of the student: ";
+    cin >> newNode->NoMhs;      // Assign value to the data field of the new node
 }
 int main()
 {
