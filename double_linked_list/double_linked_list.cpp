@@ -46,6 +46,7 @@ void addNode() {
             current = current->next;    //step 1.e: move the current ti the next node
         }
         newNode->next = current;        //step 4: make the next field of the new code point
+        newNode->prev = previous; //step 5: make the previous field of the new node point
     }
 }
 int main()
